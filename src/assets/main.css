@@ -5,6 +5,8 @@
   More info on how to modify the Conduit SASS styles can be found at
   https://github.com/GoThinkster/conduit-sass
 */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
 .logo-font {
   font-family: "Titillium Web", sans-serif;
 }
@@ -66,6 +68,7 @@ template {
 
 a {
   background-color: transparent;
+  color: #d4b6b6 !important;
 }
 
 a:active {
@@ -2822,10 +2825,10 @@ fieldset[disabled] a.btn {
 }
 
 .btn-outline-primary {
-  color: #5cb85c;
+  color: black;
   background-image: none;
   background-color: transparent;
-  border-color: #5cb85c;
+  border-color:grey;
 }
 .btn-outline-primary:hover {
   color: #fff;
@@ -4566,6 +4569,7 @@ a.tag:hover {
 
 .tag-default {
   background-color: #818a91;
+  
 }
 .tag-default[href]:focus,
 .tag-default[href]:hover {
@@ -6726,12 +6730,12 @@ a.text-danger:hover {
 
 .tag-default {
   color: #fff !important;
-  font-size: 0.8rem;
-  padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  font-size: 0.9rem;
+  padding-top: 0.15rem;
+  padding-bottom: 0.15rem;
   white-space: nowrap;
   margin-right: 3px;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
   display: inline-block;
 }
 .tag-default:hover {
@@ -6784,11 +6788,11 @@ ul.tag-list li {
 .nav-pills.outline-active .nav-link.active {
   background: #fff !important;
   border-bottom: 2px solid #5cb85c !important;
-  color: #5cb85c !important;
+  color: #072429 !important;
 }
 
 footer {
-  background: #f3f3f3;
+  background: #373a3c;
   margin-top: 3rem;
   padding: 1rem 0;
   position: absolute;
@@ -6801,19 +6805,19 @@ footer .logo-font {
 footer .attribution {
   vertical-align: middle;
   margin-left: 10px;
-  font-size: 0.8rem;
-  color: #bbb;
+  font-size: 0.9rem;
+  color: #FFF;
   font-weight: 300;
 }
 
 .error-messages {
-  color: #b85c5c !important;
+  color: #a34747 !important;
   font-weight: bold;
 }
 
 .banner {
   color: #fff;
-  background: #333;
+  background: black;
   padding: 2rem;
   margin-bottom: 2rem;
 }
@@ -6905,7 +6909,7 @@ footer .attribution {
 }
 
 .home-page .banner {
-  background: #5cb85c;
+  background: #373a3c;
   box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.3),
     inset 0 -8px 8px -8px rgba(0, 0, 0, 0.3);
 }
@@ -6930,7 +6934,7 @@ footer .attribution {
 
 .home-page .sidebar {
   padding: 5px 10px 10px 10px;
-  background: #f3f3f3;
+  background: #efb5b5;
   border-radius: 4px;
 }
 .home-page .sidebar p {
