@@ -7048,8 +7048,9 @@ footer .attribution {
 
 .profile-page .user-info {
   text-align: center;
-  background: #f3f3f3;
+  background: #373a3c;
   padding: 2rem 0 1rem 0;
+  color: white !important;
 }
 .profile-page .user-info .user-img {
   width: 100px;
